@@ -8,7 +8,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="manifest" href="site.webmanifest">
 		<link rel="shortcut icon" type="image/x-icon" href="assets/img/iitk.png">
-
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
 		<!-- CSS here -->
             <link rel="stylesheet" href="assets/css/bootstrap.min.css">
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -28,6 +29,8 @@
             <link rel="preconnect" href="https://fonts.gstatic.com">
             <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
 
+			 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+			 
    
    <!--<style>
     html, body {
@@ -159,47 +162,59 @@
     <!-- Preloader end -->
     <header>
         <!-- Header Start -->
-        <div class="header-area">
-                <div class="main-header  header-sticky">
-                    <div class="container-fluid">
-                        <div class="row align-items-center">
-                            <!-- Logo -->
-                            <div class="col-xl-2 col-lg-2 col-md-1">
-                                <div class="logo">
-                                    <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="col-xl-10 col-lg-10 col-md-10">
-                                <div class="menu-main d-flex align-items-center justify-content-end">
-                                    <!-- Main-menu -->
-                                    <div class="main-menu f-right d-none d-lg-block">
-                                        <nav> 
-                                            <ul id="navigation">
-                                                <li><a href="#about">About Us</a></li>
-                                                <li><a href="events.html">Events</a>
-													
-												</li>
-                                                <li><a href="initiatives.html">Initiatives</a>
-													
-												</li>
-                                                <li><a href="team.html">Team</a>
-                                                   
-                                                </li>
-                                                <li><a href="https://www.quora.com/q/thatsiitk" target="_blank">Blog</a></li>
-                                            </ul>
-                                        </nav>
-										</div>
-										<div class="header-right-btn f-right d-none d-xl-block ml-20">
-                                        <a href="#contact" class="btn header-btn">Contact Us</a>
-                                    
-                                    </div>
-                                </div>
-                            </div>   
-                           
-                        </div>
-                    </div>
-                </div>
-        </div>
+        <div class="header-sticky">
+            <!-- Header Start -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img class="img-responsive" src="assets/img/logo/logo.png"></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav justify-content-end navbar-right">
+                  <li class="nav-item">
+                    <a class="nav text-dark" href="#about">About Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav text-dark" data-toggle="dropdown" href="events.html">Events</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="events/legacy_hunt.html">Legacy Hunt</a></li>
+                      <li><a class="dropdown-item" href="events/cya.html">Connect To Your Ancestors</a></li>
+                      <li><a class="dropdown-item" href="events/luck.html">From Alumni, With Luck!</a></li>
+                      <li><a class="dropdown-item" href="events/weekend.html">Legacy Weekend</a></li>
+                      <li><a class="dropdown-item" href="events/tips.html">Tips From The Top Sessions</a></li>
+                      <li><a class="dropdown-item" href="events/convo.html">Convocation</a></li>
+                      <li><a class="dropdown-item" href="events/reunions.html">Alumni Reunions</a></li>
+                      <li><a class="dropdown-item" href="events/chapter.html">Alumni Chapter Meets</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav text-dark" data-toggle="dropdown" href="initiatives.html">Initiatives</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="events/abp.html">Alumni Buddy Program</a></li>
+                    <li><a class="dropdown-item" href="events/year.html">Institute Yearbook</a></li>
+                    <li><a class="dropdown-item" href="events/startup.html">Alumni Startup Internship Program</a></li>
+                    <li><a class="dropdown-item" href="events/mock.html">Mock-En-Joy</a></li>
+                  </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav text-dark" data-toggle="dropdown" href="team.html">Team</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#oc">Overall Coordinators</a></li>
+                      <li><a class="dropdown-item" href="#mgr">Managers</a></li>
+                      <li><a class="dropdown-item" href="#secy">Secretaries</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav text-dark" href="https://www.quora.com/q/thatsiitk">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav text-dark" href="#contact">Contact Us</a>
+                  </li>
+                </ul>
+              </nav>
+              </div>
         <!-- Header End -->
     </header>
 
